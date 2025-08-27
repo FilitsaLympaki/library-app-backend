@@ -1,4 +1,4 @@
-package gr.aueb.cf.librarymanagementsystem.dto;
+package gr.aueb.cf.librarymanagementsystem.dto.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,8 +1,8 @@
 package gr.aueb.cf.librarymanagementsystem.authentication;
 
 import gr.aueb.cf.librarymanagementsystem.core.exceptions.NotAuthorizedException;
-import gr.aueb.cf.librarymanagementsystem.dto.AuthenticationRequestDto;
-import gr.aueb.cf.librarymanagementsystem.dto.AuthenticationResponseDto;
+import gr.aueb.cf.librarymanagementsystem.dto.auth.AuthenticationRequestDto;
+import gr.aueb.cf.librarymanagementsystem.dto.auth.AuthenticationResponseDto;
 import gr.aueb.cf.librarymanagementsystem.model.User;
 import gr.aueb.cf.librarymanagementsystem.repository.UserRepository;
 import gr.aueb.cf.librarymanagementsystem.security.JwtService;

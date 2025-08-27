@@ -2,8 +2,8 @@ package gr.aueb.cf.librarymanagementsystem.controller;
 
 import gr.aueb.cf.librarymanagementsystem.authentication.AuthenticationService;
 import gr.aueb.cf.librarymanagementsystem.core.exceptions.NotAuthorizedException;
-import gr.aueb.cf.librarymanagementsystem.dto.AuthenticationRequestDto;
-import gr.aueb.cf.librarymanagementsystem.dto.AuthenticationResponseDto;
+import gr.aueb.cf.librarymanagementsystem.dto.auth.AuthenticationRequestDto;
+import gr.aueb.cf.librarymanagementsystem.dto.auth.AuthenticationResponseDto;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
