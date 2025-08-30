@@ -26,6 +26,7 @@ public class CreateBookDto {
     @NotBlank(message = "ISBN cannot be empty.")
     private String isbn;
 
+    @NotNull
     @Positive(message = "Pages must be positive.")
     private Integer pages;
 

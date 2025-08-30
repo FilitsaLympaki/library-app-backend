@@ -31,7 +31,7 @@ Set the following environment variables for production:
 ### Swagger UI
 Once the application is running, you can access the Swagger UI at:
 ```
-http://localhost:8080/swagger-ui.html
+http://localhost:8080/swagger-ui/index.html
 ```
 
 ## Security
